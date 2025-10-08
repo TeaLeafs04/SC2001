@@ -44,7 +44,7 @@ Even if most entries are ∞ (no edge), you still check every vertex.
 
 Key difference:
 
-Aspect	Adjacency List	Adjacency Matrix
-Storage	Only store existing edges	Store all possible edges
-Looping	Only neighbors of u	All vertices v = 0..V-1
-Sparse graph	Very efficient	Inefficient (many ∞ entries)
+Aspect	  Adjacency List	            Adjacency Matrix
+Storage	  Only store existing edges	Store all possible edges
+Looping	  Only neighbors of u	        All vertices v = 0..V-1
+Sparse graph	Very efficient	    Inefficient (many ∞ entries)
